@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white; height: 70px;">
+    <a class="navbar-brand" href="#" >
+      <img src="img/blacklogo.png" alt="" style="height:100px ;width:160px;margin-left: 100px;">
+      <span class="text-white"></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler10"
+    aria-controls="myNavbarToggler10" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbarToggler10">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#order">Food Order</a></li>
+            <li class="nav-item"><a style="margin-left: 600px;" class="nav-link" href="login.html">Login/Signup</a></li>
+          </ul>
+      </div>
+  </nav>
+    <section id="order">
+        <div class="header">
+          <h1>Place your order now!</h1>
+        </div>
+          <br><div class="container">
+              <form action="action_page.php">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Your name here...">
+                <label for="lname">Contact</label>
+                <input type="text" id="contact" name="contact" placeholder="eg. 03244224549">
+                <label for="lname">Street Address</label>
+                <input type="text" id="staddress" name="staddress">
+                <label for="lname">Area</label>
+                <input type="text" id="area" name="area" >
+                <label for="country">City</label>
+                <select id="city" name="city">
+                  <option value="lhr">Lahore</option>
+                  <option value="kch">Karachi</option>
+                  <option value="isb">Islamabad</option>
+                </select>
+                <input type="button"  value="Submit"  onclick="showMessage()">
+              </form>
+            </div>
+          </section>
+          <!-- <footer>
+            <div class="endline">
+                <p> © 2022 Copyright: Malibu Burger</p>
+              </div>
+          </footer> -->
+          <script src="main.js"></script>
+</body>
+</html>

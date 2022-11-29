@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif; 
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    margin-left: 0px;
+    height: 75%;
+    width: 90%;
+}
+.carousel-caption{
+    margin: 150px 400px 450px -350px;
+    z-index:2;  
+}
+.carousel-caption h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+  
